@@ -1,0 +1,59 @@
+.weatherinfo{
+    width: 300px;
+    height: 500px;
+    background: #8d8c8c;
+    border-radius: 2vmax;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dates{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    font-size: 22px;
+}
+.date{
+    font-size: 21px;
+}
+.image{
+  width: 37%;
+  align-self: center;
+  justify-self: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+.degree{
+    font-size: 42px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+.locations{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.locations span{
+    font-size: 22px;
+}
+.btnupdate{
+    margin-top: 20px;
+    cursor: pointer;
+    align-self: flex-end;
+    background-color:aqua;
+    border: none;
+    padding: 8px;
+    border-radius: 1vmax;
+    transition: 0.1s;
+    font-size: 17px;
+}
+.btnupdate:hover{
+    transform: scale(1.1);
+}
